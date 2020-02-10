@@ -1,0 +1,18 @@
+
+body {
+	height: 100vh;
+	justify-content: center;
+}
+
+
+h1 {
+	font-weight: bold;
+	font-size: 48px;
+}
+
+button {
+	width: 120px;
+	height: 50px;
+	background-color: #CCB28F;
+	color: #494845;
+}
