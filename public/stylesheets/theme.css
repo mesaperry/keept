@@ -1,10 +1,26 @@
 body {
+  	margin: 0;
 	background-color: #92B8DC;
+	color: #494845;
+  	font-family: Arial, Helvetica, sans-serif;
+  	font-size: 14px;
+}
+
+a, a:link, a:visited, a:hover, a:active {
+	text-decoration: none;
+	color: #494845;
+}
+
+.note {
+	background-color: #CCB28F;
+	margin: 10px;
 }
 
 /*
-#CCC9C4
-#E3E2E7
-#CDA065
-#725F4E
+#92B8DC light blue
+#494845 dark grey
+#CCC9C4 mid grey
+#E3E2E7 light grey
+#CCB28F golden
+#725F4E brown
 */

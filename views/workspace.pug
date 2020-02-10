@@ -1,0 +1,14 @@
+doctype html
+html(lang='en')
+  head
+    title Keept
+    link(rel='stylesheet', href='/stylesheets/theme.css')
+  body
+    a(href='/')
+        h1 Keept
+    each descriptions, note in note_data
+        div(class='note')
+            h2= note
+            ul
+                each desc in descriptions
+                    li= desc

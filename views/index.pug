@@ -1,5 +1,11 @@
-extends layout
-
-block content
-  h1= title
-  p Welcome to #{title}
+doctype html
+html(lang='en')
+  head
+    title Keept
+    link(rel='stylesheet', href='/stylesheets/theme.css')
+  body
+    a(href='/')
+        h1 Keept
+    p Convenient note keeping for groups
+    form(method='post' action='/workspace')
+      input(type='submit' value='Generate group workspace')
