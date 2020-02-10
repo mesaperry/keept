@@ -13,6 +13,20 @@ li {
   align-items: center;
 }
 
+input {
+  width: 99%;
+}
+
+
+#urlField{
+  width: 256px;
+  text-align: center;
+}
+
+#addSubject {
+  width: 480px;
+}
+
 
 .close {
   font-size: 32px;

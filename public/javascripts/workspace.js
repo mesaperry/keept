@@ -31,13 +31,17 @@ var addCloseTrigger = function(el) {
 }
 
 var addCheckTrigger = function(el) {
-  el.addEventListener('click', function(ev) {
-    if (ev.target.tagName === 'LI') {
-      ev.target.classList.toggle('checked');
-    }
-  }, false);
+  // el.addEventListener('click', function(ev) {
+  //   if (ev.target.tagName === 'LI') {
+  //     ev.target.classList.toggle('checked');
+  //   }
+  // }, false);
   return el;
 }
+
+// set url field
+document.getElementById('urlField').value = window.location.href;
+
 
 // Create a "close" button and append it to each list item
 var myNodelist = document.getElementsByTagName("LI");

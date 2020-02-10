@@ -7,6 +7,8 @@ html(lang='en')
   body
     a(href='/')
         h1 Keept
+    p Your unique address is
+    input(type="text" id="urlField" readonly)
     each descriptions, note in note_data
         div(class='note')
             h2= note
@@ -14,6 +16,6 @@ html(lang='en')
                 each desc in descriptions
                     li= desc
             input(type="text" onkeydown="newBullet(this)" placeholder="New bullet")
-    input(type="text" onkeydown="newNote(this)" placeholder="New note subject")
+    input(type="text" onkeydown="newNote(this)" placeholder="New note subject" id='addSubject')
 
     script(src='/javascripts/workspace.js')
